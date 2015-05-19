@@ -2,7 +2,7 @@
 ==============
 Although i love to use bootstrap, I found that sometimes i needed something simpler and lighter when working on a project. I developed this framework for times when you don't need all the bells and whistles, just an easy way to make sure your webpage displays well across all devices. This framework breaks the page into twelve columns when the screen size is above 640px. When screen size is less than 640px all boxes are stretched across the whole screen.
 
-![Screenshot](http://www.dominikdev.com/resources/github/screenshots/responsivefw.png "Screenshot")
+![Screenshot](http://dominikdev.com/resources/github/screenshots/responsive_12_grid_Fw.png "Screenshot")
 
 View Project Page: [12 Grid Responsive Framework](http://bit.ly/responsivegrid)
 
