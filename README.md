@@ -1,61 +1,43 @@
 12 Grid Responsive Framework
 ==============
-Although i love to use bootstrap, I found that sometimes i needed something simpler and lighter when working on a project. I developed this framework for times when you don't need all the bells and whistles, just an easy way to make sure your webpage displays well across all devices. This framework breaks the page into twelve columns when the screen size is above 640px. When screen size is less than 640px all boxes are stretched across the whole screen.
+This is a lightweight responsive framework that i put together. I based it on the 12-grid system that Bootstrap uses. It was build with the intention of being extremly lightweight for use in projects that don't require the extensive features that Bootstrap provides. It classifies screen sizes using bootstraps xs - lg technique. As well their system of offsetting content boxes. It was designed to be a lightweight framework to create responsive web pages.
 
-![Screenshot](http://dominikdev.com/resources/github/screenshots/responsive_12_grid_Fw.png "Screenshot")
+View ProjectPage: [12 Grid Responsive Framework](http://bit.ly/responsivegrid)
 
-View Project Page: [12 Grid Responsive Framework](http://bit.ly/responsivegrid)
+Grid
+--------------
+![Screenshot](http://dominikdev.com/resources/github/screenshots/gridimg1.jpg "Screenshot")
 
-Instructions
+The classes range from extra small (> 768px) to large (< 1200px)
+
+**This is how a 6 column content box displays across various resolutions**
+
+![Screenshot](http://dominikdev.com/resources/github/screenshots/gridimg2.jpg "Screenshot")
+
+Instructions to integrate
 --------------
 
 - Clone this project or download CSS File [Here](http://bit.ly/responsivegrid)
 ```
-responsive_twelve_grid.css
+twelve_grid.css
 ````
 - Add Link Reference in File
+
 ```HTML
-<link href="path-To-File/responsive_twelve_grid.css" rel="stylesheet" type="text/css" />
+<link href="path-To-File/twelve_grid.min.css" rel="stylesheet" type="text/css" />
 ```
 
-How To Format HTML
+Elements
 --------------
-1. Wrap Page in Container.
-2. Wrap Each Row in div with class of "row".
-3. Each column has class of "box-wrapper" plus class of how many grids it will stretch across.
-```
-     - "box-wrapper bw-1"
-     - "box-wrapper bw-2"
-     - "box-wrapper bw-3"
-     - "box-wrapper bw-4"
-     - "box-wrapper bw-5"
-     - "box-wrapper bw-6"
-     - "box-wrapper bw-7"
-     - "box-wrapper bw-8"
-     - "box-wrapper bw-9"
-     - "box-wrapper bw-10"
-     - "box-wrapper bw-11"
-     - "box-wrapper bw-12"
-```
-**Example**
+**Containers**
 
-```HTML
-<div class="container">
-     <div class="row">
-           <div class="box-wrapper bw-12">
-                  <span>CONTENT</span>
-           </div>
-     </div>
-     <div class="row">
-           <div class="box-wrapper bw-6">
-                  <span>CONTENT</span>
-           </div>
-           <div class="box-wrapper bw-6">
-                  <span>CONTENT</span>
-           </div>
-     </div>
-</div>
-```
+class="container" - wraps elements but keeps 5% margin on the sides
+q
+class="container - full" - wraps elements but keeps 5% margin on the sides
+
+
+
+
 *To position "box-wrapper" on opposite side of page add class of "opp" as well*
 
 License
